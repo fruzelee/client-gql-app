@@ -12,3 +12,4 @@ All notable changes to this project will be documented in this file.
 - feat: add apollo service dependency on app level build.gradle file
 - feat: update the apollo plugin to our project level build.gradle file
 - feat: upgrade the apollo graphql library 
+- feat: add the downloaded schema.json file
