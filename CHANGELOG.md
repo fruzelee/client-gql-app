@@ -6,3 +6,4 @@ All notable changes to this project will be documented in this file.
 
 - feat: initial setup
 - feat: add CHANGELOG.md
+- feat: update .gitignore
