@@ -11,5 +11,20 @@ All notable changes to this project will be documented in this file.
 - feat: add the apollo runtime dependency on app level build.gradle file
 - feat: add apollo service dependency on app level build.gradle file
 - feat: update the apollo plugin to our project level build.gradle file
-- feat: upgrade the apollo graphql library 
+- feat: upgrade the apollo graphql library
 - feat: add the downloaded schema.json file
+- feat: Add UsersQuery and auto-generate UsersQuery class with Apollo
+
+This commit adds a new UsersQuery to the application. The UsersQuery class is auto-generated using
+Apollo, based on the GraphQL schema.
+
+The UsersQuery is designed to fetch a list of users from the server, with a set of predefined
+fields. This query will be used in various parts of the application where a list of users is
+required.
+
+The UsersQuery class is generated automatically by the build process using Apollo's code generation
+tools. This ensures that the class is always up-to-date with the latest changes in the schema, and
+eliminates the need for manual updates.
+
+Overall, this addition should improve the development process by simplifying the query creation
+process and reducing the chance of errors or inconsistencies.  
