@@ -27,4 +27,11 @@ tools. This ensures that the class is always up-to-date with the latest changes 
 eliminates the need for manual updates.
 
 Overall, this addition should improve the development process by simplifying the query creation
-process and reducing the chance of errors or inconsistencies.  
+process and reducing the chance of errors or inconsistencies.
+
+- feat(android): add graphql source directory
+
+This commit adds the graphql folder to the Android Studio project. It ensures that the graphql
+directory is visible when the project is in "Android" mode, making it easier to access and work with
+GraphQL files in the Android project.
+
