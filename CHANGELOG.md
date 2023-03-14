@@ -35,3 +35,8 @@ This commit adds the graphql folder to the Android Studio project. It ensures th
 directory is visible when the project is in "Android" mode, making it easier to access and work with
 GraphQL files in the Android project.
 
+- feat: Configure Apollo Project and Retrieve GraphQL Data
+
+This commit adds a new feature that involves configuring the Apollo Project and retrieving data
+using GraphQL. Specifically, the changes made in this commit enable the setup of the Apollo Project
+and the retrieval of data from a GraphQL server.
