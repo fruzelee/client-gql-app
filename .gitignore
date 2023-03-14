@@ -13,6 +13,7 @@
 .externalNativeBuild
 .cxx
 local.properties
+
 ### Android template
 # Built application files
 *.apk
@@ -100,3 +101,5 @@ lint/tmp/
 # Android Profiling
 *.hprof
 
+### Custom template
+.idea/graphql-settings.xml

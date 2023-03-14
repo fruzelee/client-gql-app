@@ -1,5 +1,5 @@
-query UsersQuery{
-    users{
+query UsersQuery {
+    users {
         name
         age
         id
